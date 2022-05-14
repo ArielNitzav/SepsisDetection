@@ -1,0 +1,16 @@
+name: hw1
+dependencies:
+  - python=3.8.*
+  - pip:
+    - ipython
+    - jupyter
+    - jupyterlab
+    - matplotlib
+    - numpy
+    - scikit-learn
+    - scipy
+    - pytest
+    - pandas
+    - xgboost
+    - graphviz
+    - seaborn
