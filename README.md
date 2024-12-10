@@ -8,7 +8,7 @@ This project is adapted from the dataset and methodology described in the public
 [*"Data-DrivenApproaches for Early Sepsis Detection"*](https://pmc.ncbi.nlm.nih.gov/articles/PMC8193357/).\
 The work builds on the provided data and concepts, applying additional steps for preprocessing, feature engineering, and modeling.
 
-## Features
+### Features
 
 -   **Exploratory Data Analysis (EDA)** to assess data quality and identify patterns.
 
@@ -21,6 +21,20 @@ The work builds on the provided data and concepts, applying additional steps for
 -   Analysis of model performance and feature importance for interpretability.
 
 -   Sub-population analysis to evaluate model robustness across different patient groups.
+
+### Results
+
+-   The **baseline model** (Random Forest) achieved an F1-score of **0.7** on the test set, demonstrating the ability to identify sepsis effectively.
+
+-   The **advanced model** (XGBoost) improved recall and achieved an F1-score of **0.758**, indicating a better balance between precision and recall.
+
+-   Sub-population analysis highlighted robust performance:
+
+    -   Patients with the most missing data: F1-score of **0.972**.
+
+    -   Senior patients (75+ years): F1-score of **0.798**.
+
+-   Demonstrated the importance of missing data indicators as predictive features and the value of temporal aggregation for modeling.
 
 ## Machine Learning Pipeline
 
