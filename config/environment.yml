@@ -1,4 +1,4 @@
-name: hw1
+name: sepsis_env
 dependencies:
   - python=3.8.*
   - pip:
